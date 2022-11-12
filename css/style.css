@@ -1,0 +1,434 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&family=Roboto:wght@300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Stencil+Text:wght@700&family=Lovers+Quarrel&family=Roboto:wght@300;500;700;900&display=swap");
+.containerRoot {
+  max-width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid gray; }
+  .containerRoot .headerBlock {
+    display: flex; }
+    .containerRoot .headerBlock .logo {
+      width: 50%; }
+      .containerRoot .headerBlock .logo img {
+        height: 650px;
+        width: 100%; }
+    .containerRoot .headerBlock .headerMenu {
+      width: 50%; }
+      .containerRoot .headerBlock .headerMenu .menu ul {
+        display: flex;
+        justify-content: space-around; }
+        .containerRoot .headerBlock .headerMenu .menu ul li {
+          display: inline-block; }
+          .containerRoot .headerBlock .headerMenu .menu ul li a {
+            font-family: "Old Standard TT", serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #202020;
+            text-decoration: none; }
+          .containerRoot .headerBlock .headerMenu .menu ul li a:hover {
+            text-decoration: underline; }
+          .containerRoot .headerBlock .headerMenu .menu ul li button {
+            background-color: white;
+            border: 1px solid #555555;
+            transition-duration: 0.4s;
+            font-family: "Old Standard TT", serif;
+            font-style: normal;
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 22px;
+            color: #202020;
+            width: 145px;
+            height: 35px;
+            margin-top: -10px; }
+          .containerRoot .headerBlock .headerMenu .menu ul li button:hover {
+            background-color: #000;
+            color: white; }
+      .containerRoot .headerBlock .headerMenu .titleBlock {
+        position: relative; }
+        .containerRoot .headerBlock .headerMenu .titleBlock .name {
+          font-family: "Lora", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 70px;
+          line-height: 70px;
+          color: #202020;
+          margin-top: 130px;
+          margin-bottom: 0;
+          margin-left: 45px; }
+        .containerRoot .headerBlock .headerMenu .titleBlock .photographer {
+          margin-top: 0;
+          margin-left: 45px;
+          font-family: "Lovers Quarrel", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 40px;
+          line-height: 68px;
+          color: #202020; }
+        .containerRoot .headerBlock .headerMenu .titleBlock .moto {
+          width: 215px;
+          margin-left: 45px;
+          font-family: "Old Standard TT", serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 14px;
+          line-height: 20px;
+          color: #393939; }
+        .containerRoot .headerBlock .headerMenu .titleBlock img {
+          position: absolute;
+          top: 230px;
+          left: 340px; }
+  .containerRoot .abouteMeBlock {
+    border: 2px solid red;
+    display: flex;
+    margin-top: 20px; }
+    .containerRoot .abouteMeBlock .textBlock {
+      width: 48%; }
+      .containerRoot .abouteMeBlock .textBlock .bigTitle {
+        font-family: "Old Standard TT", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        color: #202020;
+        line-height: 99px;
+        margin-left: 70px; }
+      .containerRoot .abouteMeBlock .textBlock .littleTitle {
+        font-family: "Lovers Quarrel", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 5px;
+        color: #D5D5D5;
+        margin-top: -8px;
+        margin-left: 170px; }
+      .containerRoot .abouteMeBlock .textBlock .textMeBlock {
+        font-family: "Old Standard TT", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 22px;
+        color: #393939;
+        margin-top: 70px;
+        margin-left: 40px; }
+      .containerRoot .abouteMeBlock .textBlock .social {
+        margin-top: 210px;
+        display: flex;
+        justify-content: space-around; }
+        .containerRoot .abouteMeBlock .textBlock .social .line {
+          width: 100px; }
+        .containerRoot .abouteMeBlock .textBlock .social .icons {
+          width: 32px;
+          height: 32px;
+          transition-duration: 0.4s; }
+        .containerRoot .abouteMeBlock .textBlock .social .icons:hover {
+          background-color: #000;
+          border-radius: 8px; }
+    .containerRoot .abouteMeBlock .photoMe {
+      width: 52%; }
+      .containerRoot .abouteMeBlock .photoMe img {
+        width: 85%;
+        height: 586px; }
+  .containerRoot .portfolioBlock {
+    margin-top: 80px;
+    border: 2px solid green; }
+    .containerRoot .portfolioBlock .textBlock {
+      border: 2px solid red;
+      text-align: center; }
+      .containerRoot .portfolioBlock .textBlock .bigTitle {
+        width: 380px;
+        height: 40px; }
+      .containerRoot .portfolioBlock .textBlock .littleTitle {
+        font-family: "Lovers Quarrel", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 50px;
+        line-height: 5px;
+        color: #D5D5D5;
+        margin-top: -8px;
+        margin-left: 170px; }
+    .containerRoot .portfolioBlock .photoPartfolioBlock {
+      border: 2px solid red;
+      display: flex; }
+      .containerRoot .portfolioBlock .photoPartfolioBlock .block1 {
+        width: 28%;
+        margin-left: 80px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block1 .photo1 {
+          width: 299px;
+          height: 340px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block1 .photo2 {
+          width: 299px;
+          height: 340px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block1 .photo3 {
+          width: 299px;
+          height: 320px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block1 .photo4 {
+          width: 299px;
+          height: 349px; }
+      .containerRoot .portfolioBlock .photoPartfolioBlock .block2 {
+        width: 44%;
+        margin-top: 45px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block2 .photo5 {
+          width: 420px;
+          height: 340px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block2 .photo6 {
+          width: 420px;
+          height: 265px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block2 .photo7 {
+          width: 420px;
+          height: 395px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block2 .photo8 {
+          width: 420px;
+          height: 305px; }
+      .containerRoot .portfolioBlock .photoPartfolioBlock .block3 {
+        width: 28%;
+        margin-top: 20px;
+        margin-right: 80px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block3 .photo9 {
+          width: 299px;
+          height: 300px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block3 .photo10 {
+          width: 299px;
+          height: 342px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block3 .photo11 {
+          width: 299px;
+          height: 331px; }
+        .containerRoot .portfolioBlock .photoPartfolioBlock .block3 .photo12 {
+          width: 299px;
+          height: 357px; }
+    .containerRoot .portfolioBlock .buttonPortfolioBlock {
+      display: flex;
+      justify-content: center; }
+      .containerRoot .portfolioBlock .buttonPortfolioBlock .buttonPortfolio {
+        background-color: white;
+        border: 1px solid #555555;
+        transition-duration: 0.4s;
+        font-family: "Lora", serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 23px;
+        color: #202020;
+        margin-top: 70px;
+        width: 410px;
+        height: 65px; }
+      .containerRoot .portfolioBlock .buttonPortfolioBlock .buttonPortfolio:hover {
+        background-color: #000;
+        color: white; }
+  .containerRoot .reviewsBlock .textReviewsBlock .bigTitle {
+    font-family: "Old Standard TT", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    color: #202020;
+    line-height: 40px;
+    margin-top: 70px;
+    margin-left: 70px;
+    margin-bottom: 0; }
+  .containerRoot .reviewsBlock .textReviewsBlock .littleTitle {
+    font-family: "Lovers Quarrel", serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 5px;
+    color: #D5D5D5;
+    margin-left: 166px;
+    margin-top: 24px; }
+  .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock {
+    color: #ffffff;
+    background-color: #27292d;
+    overflow: hidden;
+    overflow-y: auto;
+    width: 100%;
+    height: 1200px; }
+@keyframes heartbeat {
+  0% {
+    transform: scale(0); }
+  25% {
+    transform: scale(1.2); }
+  50% {
+    transform: scale(1); }
+  75% {
+    transform: scale(1.2); }
+  100% {
+    transform: scale(1); } }
+    .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container {
+      position: relative;
+      margin: 0 auto;
+      width: 800px;
+      height: 600px; }
+      .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .bullet-container {
+        position: absolute;
+        bottom: 10px;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .bullet-container .bullet {
+          margin-right: 14px;
+          height: 20px;
+          width: 20px;
+          border-radius: 50%;
+          background-color: white;
+          opacity: 0.5; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .bullet-container .bullet:last-child {
+            margin-right: 0; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .bullet-container .bullet.active {
+            opacity: 1; }
+      .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content {
+        position: relative;
+        left: 50%;
+        top: 50%;
+        width: 70%;
+        height: 60%;
+        transform: translate(-50%, -50%); }
+        .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single {
+          position: absolute;
+          z-index: 0;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 100%;
+          transition: z-index 0ms 250ms; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-image {
+            position: relative;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+            transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+            transform: scale(0);
+            opacity: 0; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-download {
+            position: absolute;
+            display: block;
+            right: -22px;
+            bottom: 12px;
+            padding: 15px;
+            color: #333333;
+            background-color: #fdc84b;
+            font-size: 18px;
+            font-weight: 600;
+            font-family: "karla", serif;
+            border-radius: 5px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+            opacity: 0; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-download:hover, .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-download:focus {
+              outline: none;
+              text-decoration: none; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-title {
+            display: block;
+            float: left;
+            margin: 16px 0 0 20px;
+            font-size: 20px;
+            font-family: "karla", serif;
+            font-weight: 400;
+            color: #ffffff;
+            transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+            opacity: 0; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-likes {
+            display: block;
+            float: right;
+            margin: 16px 20px 0 0;
+            transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+            opacity: 0; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-likes i {
+              font-size: 20px;
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 5px;
+              color: #ff6060;
+              transition: 500ms cubic-bezier(0.17, 0.67, 0.55, 1.43);
+              transform: scale(0); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-likes p {
+              display: inline-block;
+              vertical-align: middle;
+              margin: 0;
+              color: #ffffff; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-likes:hover, .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single .slider-single-likes:focus {
+              outline: none;
+              text-decoration: none; }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactivede .slider-single-image {
+            transform: translateX(-50%) scale(0); }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactive {
+            z-index: 1; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactive .slider-single-image {
+              opacity: 0.3;
+              transform: translateX(-25%) scale(0.8); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactive .slider-single-download {
+              transform: translateX(-150px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactive .slider-single-title {
+              transform: translateX(-150px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.preactive .slider-single-likes {
+              transform: translateX(-150px); }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactive {
+            z-index: 1; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactive .slider-single-image {
+              opacity: 0.3;
+              transform: translateX(25%) scale(0.8); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactive .slider-single-download {
+              transform: translateX(150px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactive .slider-single-title {
+              transform: translateX(150px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactive .slider-single-likes {
+              transform: translateX(150px); }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.proactivede .slider-single-image {
+            transform: translateX(50%) scale(0); }
+          .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active {
+            z-index: 2; }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active .slider-single-image {
+              opacity: 1;
+              transform: translateX(0%) scale(1); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active .slider-single-download {
+              opacity: 1;
+              transition-delay: 100ms;
+              transform: translateX(0px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active .slider-single-title {
+              opacity: 1;
+              transition-delay: 200ms;
+              transform: translateX(0px); }
+            .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active .slider-single-likes {
+              opacity: 1;
+              transition-delay: 300ms;
+              transform: translateX(0px); }
+              .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-content .slider-single.active .slider-single-likes i {
+                animation-name: heartbeat;
+                animation-duration: 500ms;
+                animation-delay: 900ms;
+                animation-iteration-count: 1;
+                animation-fill-mode: forwards; }
+      .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-left {
+        position: absolute;
+        z-index: 3;
+        display: block;
+        right: 85%;
+        top: 50%;
+        color: #ffffff;
+        transform: translateY(-50%);
+        padding: 20px 15px;
+        border-top: 2px solid #fdc84b;
+        border-right: 2px solid #fdc84b;
+        border-bottom: 2px solid #fdc84b;
+        border-left: 2px solid #fdc84b;
+        margin-right: -2px; }
+      .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .slider-right {
+        position: absolute;
+        z-index: 3;
+        display: block;
+        left: 85%;
+        top: 50%;
+        color: #ffffff;
+        transform: translateY(-50%);
+        padding: 20px 15px;
+        border-top: 2px solid #fdc84b;
+        border-right: 2px solid #fdc84b;
+        border-bottom: 2px solid #fdc84b;
+        border-left: 2px solid #fdc84b;
+        margin-left: -2px; }
+      .containerRoot .reviewsBlock .textReviewsBlock .selectorBlock .slider-container .not-visible {
+        display: none !important; }
+
+/*# sourceMappingURL=style.css.map */
